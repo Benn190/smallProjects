@@ -3,10 +3,8 @@
 
 userInput = input("Enter a sentence..")
 
-#"two words"
-
-currWord = ""
-reversedWords = []
+currWord = "" # hold current word
+reversedWords = [] #contains a list of the reversed words collected
 
 for l in range(0, len(userInput)):
     if userInput[l] == " ":
@@ -18,6 +16,7 @@ for l in range(0, len(userInput)):
     else:
         currWord = userInput[l] + currWord
 
+#print from reversed list
 for word in reversedWords:
     print(word, end=" ")
         
