@@ -41,9 +41,6 @@ def isLeapYear(year):
         return True
     else:
         return False
-        
-
-    return true
 
 def daysLeftInMonth(year, month, days):
     if month == 1:
