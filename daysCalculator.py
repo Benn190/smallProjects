@@ -44,28 +44,31 @@ def isLeapYear(year):
 
 def daysLeftInMonth(year, month, days):
     if month == 1:
-        daysUntil = 31 - days
+        return 31 - days
     elif month == 2 and isLeapYear(year):
-        daysUntil = 29 - days
+        return 29 - days
     elif month == 2:
-        daysUntil = 28 - days
+        return 28 - days
     elif month == 3:
-        daysUntil = 31 - days
+        return 31 - days
     elif month == 4:
-        daysUntil = 30 - days
+        return 30 - days
     elif month == 5:
-        daysUntil = 31 - days
+        return 31 - days
     elif month == 6:
-        daysUntil = 30 - days
+        return 30 - days
     elif month == 7:
-        daysUntil = 31 - days
+        return 31 - days
     elif month == 8:
-        daysUntil = 31 - days
+        return 31 - days
     elif month == 9:
-        daysUntil = 30 - days
+        return 30 - days
     elif month == 10:
-        daysUntil = 31 - days
+        return 31 - days
     elif month == 11:
-        daysUntil = 30 - days
+        return 30 - days
     elif month == 12:
-        daysUntil = 31 - days
+        return 31 - days
+        
+daysUntil = daysLeftInMonth(year1, month1, day1)
+print(daysUntil)
