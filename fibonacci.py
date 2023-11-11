@@ -8,6 +8,5 @@ def fib(num):
     else:
         return fib(num-1) + fib(num-2)
     
-num = input("Enter which fibonnaci number you would like shown...")
-num = int(num)
+num = int(input("Enter which fibonnaci number you would like shown..."))
 print(fib(num))
