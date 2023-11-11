@@ -1,3 +1,5 @@
+# UNFINISHED
+
 # program to calculate the number of days between any two dates in DDMMYYYY format
 
 date1 = input("Choose a date in DDMMYYYY format...")
